@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Facultades UTP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Fondo decorativo -->
+  <div class="background"></div>
+
+  <!-- App -->
+  <div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar glass">
+      <h2 class="logo">UTP GAMES</h2>
+
+      <nav>
+        <button class="nav-btn sistemas active">
+          Facultad de Sistemas
+        </button>
+
+        <button class="nav-btn industrial">
+          Facultad de Industrial
+        </button>
+
+        <button class="nav-btn mecanica">
+          Facultad de Mecánica
+        </button>
+
+        <button class="nav-btn civil">
+          Facultad de Civil
+        </button>
+
+        <button class="nav-btn electrica">
+          Facultad de Eléctrica
+        </button>
+      </nav>
+    </aside>
+
+   <main class="content">
+
+  <header class="header glass">
+    <h1 id="title">Analytics</h1>
+  </header>
+
+  <!-- CONTENEDOR DINÁMICO -->
+  <section id="components" class="cards"></section>
+
+  <!-- MODAL POPUP -->
+<div id="game-modal" class="modal hidden">
+  <div class="modal-content glass">
+    <h2 id="modal-title">Título</h2>
+    <p id="modal-description">Descripción</p>
+
+    <div class="modal-actions">
+      <button id="start-game" class="play-btn">INICIAR JUEGO</button>
+      <button id="close-modal" class="close-btn">CERRAR</button>
+    </div>
+  </div>
+</div>
+
+
+</main>
+  </div>
+ <script src="app.js"></script>
+  
+</body>
+</html>
