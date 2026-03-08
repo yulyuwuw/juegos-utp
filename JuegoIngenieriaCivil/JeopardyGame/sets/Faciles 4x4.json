@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Materiales",
+    "questions": [
+      { "question": "¿Qué material se usa para reforzar el concreto?", "answer": "Acero", "value": 100 },
+      { "question": "¿Qué propiedad indica qué tan duro es un material?", "answer": "Resistencia", "value": 200 },
+      { "question": "¿Qué prueba mide la resistencia del concreto?", "answer": "Ensayo de compresión", "value": 300 },
+      { "question": "¿Qué problema ocurre cuando el acero del concreto se oxida?", "answer": "Corrosión", "value": 400 }
+    ]
+  },
+  {
+    "name": "Estructuras",
+    "questions": [
+      { "question": "¿Qué elemento horizontal sostiene techos o pisos?", "answer": "Viga", "value": 100 },
+      { "question": "¿Qué es una losa?", "answer": "Placa de concreto que forma pisos o techos", "value": 200 },
+      { "question": "¿Qué significa que una estructura sea estable?", "answer": "Que no se caiga ni se mueva excesivamente", "value": 300 },
+      { "question": "¿Qué fenómeno puede hacer que una columna delgada se doble?", "answer": "Pandeo", "value": 400 }
+    ]
+  },
+  {
+    "name": "Suelo y Terreno",
+    "questions": [
+      { "question": "¿Sobre qué se construyen los edificios?", "answer": "Sobre el suelo o terreno", "value": 100 },
+      { "question": "¿Qué estudio analiza el tipo de suelo antes de construir?", "answer": "Estudio geotécnico", "value": 200 },
+      { "question": "¿Qué problema ocurre cuando el suelo se hunde?", "answer": "Asentamiento", "value": 300 },
+      { "question": "¿Qué ingeniero estudia el comportamiento del suelo?", "answer": "Ingeniero geotécnico", "value": 400 }
+    ]
+  },
+  {
+    "name": "Hidráulica",
+    "questions": [
+      { "question": "¿Qué transportan las tuberías?", "answer": "Agua o fluidos", "value": 100 },
+      { "question": "¿Cómo se llama la cantidad de agua que pasa por segundo?", "answer": "Caudal", "value": 200 },
+      { "question": "¿Qué número indica si el flujo es laminar o turbulento?", "answer": "Número de Reynolds", "value": 300 },
+      { "question": "¿Qué energía aprovechan las presas para producir electricidad?", "answer": "Energía hidráulica", "value": 400 }
+    ]
+  }
+]

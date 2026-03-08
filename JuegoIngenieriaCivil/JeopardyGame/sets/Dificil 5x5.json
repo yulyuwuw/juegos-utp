@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Materiales",
+    "questions": [
+      { "question": "¿Qué ensayo mide resistencia del acero?", "answer": "Ensayo de tracción", "value": 100 },
+      { "question": "¿Qué es módulo de elasticidad?", "answer": "Relación entre esfuerzo y deformación", "value": 200 },
+      { "question": "¿Qué es fluencia en acero?", "answer": "Deformación permanente bajo carga constante", "value": 300 },
+      { "question": "¿Qué es carbonatación en concreto?", "answer": "Reacción que reduce alcalinidad y favorece corrosión", "value": 400 },
+      { "question": "¿Qué fenómeno reduce sección efectiva del acero en concreto armado?", "answer": "Corrosión", "value": 500 }
+    ]
+  },
+  {
+    "name": "Estructuras",
+    "questions": [
+      { "question": "¿Qué es momento flector?", "answer": "Esfuerzo interno que produce flexión", "value": 100 },
+      { "question": "¿Qué es carga muerta?", "answer": "Peso propio permanente", "value": 200 },
+      { "question": "¿Qué método analiza estructuras hiperestáticas?", "answer": "Método de distribución de momentos", "value": 300 },
+      { "question": "¿Qué es ductilidad?", "answer": "Capacidad de deformarse antes de fallar", "value": 400 },
+      { "question": "¿Qué norma regula diseño sísmico en muchos países?", "answer": "Norma sismorresistente nacional", "value": 500 }
+    ]
+  },
+  {
+    "name": "Geotecnia",
+    "questions": [
+      { "question": "¿Qué es límite líquido?", "answer": "Contenido de humedad donde suelo pasa a estado plástico", "value": 100 },
+      { "question": "¿Qué es consolidación?", "answer": "Reducción de volumen por expulsión de agua", "value": 200 },
+      { "question": "¿Qué ensayo mide resistencia del suelo in situ?", "answer": "SPT", "value": 300 },
+      { "question": "¿Qué es empuje activo de tierras?", "answer": "Presión lateral cuando suelo se expande", "value": 400 },
+      { "question": "¿Qué teoría calcula asentamientos por consolidación?", "answer": "Teoría de Terzaghi", "value": 500 }
+    ]
+  },
+  {
+    "name": "Hidráulica",
+    "questions": [
+      { "question": "¿Qué es caudal?", "answer": "Volumen por unidad de tiempo", "value": 100 },
+      { "question": "¿Qué es flujo laminar?", "answer": "Flujo ordenado en capas paralelas", "value": 200 },
+      { "question": "¿Qué número caracteriza el tipo de flujo?", "answer": "Número de Reynolds", "value": 300 },
+      { "question": "¿Qué es pérdida de carga?", "answer": "Disminución de energía por fricción", "value": 400 },
+      { "question": "¿Qué fórmula se usa para canales abiertos?", "answer": "Fórmula de Manning", "value": 500 }
+    ]
+  },
+  {
+    "name": "Construcción",
+    "questions": [
+      { "question": "¿Qué es licitación?", "answer": "Proceso de selección de contratista", "value": 100 },
+      { "question": "¿Qué es control de calidad?", "answer": "Verificación de cumplimiento de normas", "value": 200 },
+      { "question": "¿Qué es ruta crítica?", "answer": "Secuencia de actividades sin holgura", "value": 300 },
+      { "question": "¿Qué es gestión de riesgos?", "answer": "Identificación y mitigación de amenazas", "value": 400 },
+      { "question": "¿Qué contrato traslada mayor riesgo al contratista?", "answer": "Contrato a precio alzado", "value": 500 }
+    ]
+  }
+]
+
+

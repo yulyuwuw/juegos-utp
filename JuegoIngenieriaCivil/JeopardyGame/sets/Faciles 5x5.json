@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Construcción",
+    "questions": [
+      { "question": "¿Qué máquina se usa para excavar terreno?", "answer": "Excavadora", "value": 100 },
+      { "question": "¿Qué documento indica cuánto costará una obra?", "answer": "Presupuesto", "value": 200 },
+      { "question": "¿Qué es un plano?", "answer": "Dibujo técnico de una construcción", "value": 300 },
+      { "question": "¿Qué método organiza las tareas de una obra por tiempos?", "answer": "Cronograma", "value": 400 },
+      { "question": "¿Qué método identifica las actividades críticas de un proyecto?", "answer": "Ruta crítica (CPM)", "value": 500 }
+    ]
+  },
+  {
+    "name": "Estructuras",
+    "questions": [
+      { "question": "¿Qué sostiene el techo de una casa?", "answer": "Vigas y columnas", "value": 100 },
+      { "question": "¿Qué fuerza estira un material?", "answer": "Tracción", "value": 200 },
+      { "question": "¿Qué fuerza lo comprime?", "answer": "Compresión", "value": 300 },
+      { "question": "¿Qué propiedad permite que un material se deforme antes de romperse?", "answer": "Ductilidad", "value": 400 },
+      { "question": "¿Qué análisis estudia cómo se distribuyen fuerzas internas en una estructura?", "answer": "Análisis estructural", "value": 500 }
+    ]
+  },
+  {
+    "name": "Materiales",
+    "questions": [
+      { "question": "¿De qué color es normalmente el cemento?", "answer": "Gris", "value": 100 },
+      { "question": "¿Qué mezcla forma el concreto?", "answer": "Cemento, agua y agregados", "value": 200 },
+      { "question": "¿Qué es el acero de refuerzo?", "answer": "Varillas que refuerzan el concreto", "value": 300 },
+      { "question": "¿Qué ensayo mide qué tanto se deforma un material bajo carga?", "answer": "Ensayo de tracción", "value": 400 },
+      { "question": "¿Qué problema ocurre cuando el concreto pierde su alcalinidad y el acero se oxida?", "answer": "Carbonatación", "value": 500 }
+    ]
+  },
+  {
+    "name": "Geotecnia",
+    "questions": [
+      { "question": "¿Qué sostiene el peso de un edificio bajo tierra?", "answer": "Cimentación", "value": 100 },
+      { "question": "¿Qué problema ocurre si el suelo es muy blando?", "answer": "Hundimiento", "value": 200 },
+      { "question": "¿Qué ensayo se realiza golpeando una varilla para medir resistencia del suelo?", "answer": "SPT", "value": 300 },
+      { "question": "¿Qué fenómeno ocurre cuando el agua sale lentamente del suelo bajo carga?", "answer": "Consolidación", "value": 400 },
+      { "question": "¿Qué teoría calcula la capacidad portante del suelo?", "answer": "Teoría de Terzaghi", "value": 500 }
+    ]
+  },
+  {
+    "name": "Infraestructura",
+    "questions": [
+      { "question": "¿Qué estructura permite cruzar un río?", "answer": "Puente", "value": 100 },
+      { "question": "¿Qué sistema lleva agua potable a las casas?", "answer": "Red de abastecimiento", "value": 200 },
+      { "question": "¿Qué obra evita inundaciones en ciudades?", "answer": "Drenaje pluvial", "value": 300 },
+      { "question": "¿Qué estructura retiene agua para generar energía?", "answer": "Presa", "value": 400 },
+      { "question": "¿Qué disciplina diseña carreteras y autopistas?", "answer": "Ingeniería de transporte", "value": 500 }
+    ]
+  }
+]

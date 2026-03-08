@@ -1,0 +1,284 @@
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+height:100vh;
+background:#0b0616;
+color:white;
+overflow:auto;
+}
+
+/* Fondo igual al dashboard */
+
+.background{
+position:fixed;
+inset:0;
+
+background:
+radial-gradient(circle at top left,#7f3cff55,transparent 40%),
+radial-gradient(circle at bottom right,#c77dff33,transparent 40%);
+
+z-index:-1;
+}
+
+
+/* APP */
+
+.game-app{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+min-height:100vh;
+padding:40px;
+gap:30px;
+}
+
+
+/* GLASS */
+
+.glass{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(16px);
+border-radius:16px;
+border:1px solid rgba(255,255,255,0.15);
+padding:30px;
+}
+
+
+/* TITULO */
+
+.title{
+font-size:42px;
+margin-bottom:20px;
+color:#d7b8ff;
+text-shadow:0 0 20px #7f3cff;
+}
+
+
+/* BOTONES */
+
+.play-btn{
+
+padding:12px 22px;
+border-radius:14px;
+border:none;
+cursor:pointer;
+
+font-weight:600;
+
+background:linear-gradient(90deg,#7b1fa2,#ce93d8);
+color:white;
+
+transition:0.25s;
+}
+
+.play-btn:hover{
+transform:translateY(-2px) scale(1.05);
+box-shadow:0 0 20px rgba(123,31,162,0.7);
+}
+
+
+/* BOTON CERRAR */
+
+.close-btn{
+
+padding:12px 22px;
+border-radius:14px;
+border:none;
+cursor:pointer;
+
+background:rgba(255,255,255,0.15);
+color:white;
+}
+
+.close-btn:hover{
+background:rgba(255,255,255,0.25);
+}
+
+
+
+/* TABLERO */
+
+#board{
+display:grid;
+gap:10px;
+margin-top:20px;
+}
+
+
+/* CELDAS */
+
+.cell{
+
+background:linear-gradient(135deg,#7b1fa2,#ce93d8);
+padding:28px;
+font-size:20px;
+border-radius:12px;
+
+cursor:pointer;
+transition:0.25s;
+
+box-shadow:0 0 10px rgba(123,31,162,0.4);
+}
+
+.cell:hover{
+
+transform:scale(1.05);
+box-shadow:0 0 20px rgba(123,31,162,0.8);
+}
+
+.used{
+
+background:#333;
+pointer-events:none;
+}
+
+
+
+/* MODAL */
+
+.modal{
+
+position:fixed;
+inset:0;
+
+background:rgba(0,0,0,0.7);
+
+display:none;   /* IMPORTANTE */
+
+justify-content:center;
+align-items:center;
+
+z-index:999;
+}
+
+
+.modal-content{
+
+width:420px;
+text-align:center;
+padding:30px;
+
+animation:pop .35s ease;
+}
+
+
+@keyframes pop{
+
+from{
+transform:scale(.7);
+opacity:0;
+}
+
+to{
+transform:scale(1);
+opacity:1;
+}
+
+}
+
+
+
+/* SCORE */
+
+#scoreboard{
+
+display:flex;
+gap:20px;
+justify-content:center;
+margin:20px;
+}
+
+.player-score{
+
+padding:10px 16px;
+
+background:rgba(255,255,255,0.08);
+border-radius:12px;
+}
+
+
+
+/* TURNO */
+
+.turn-modal{
+
+position:fixed;
+inset:0;
+
+background:rgba(0,0,0,0.85);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+z-index:2000;
+}
+
+.turn-box{
+
+background:linear-gradient(135deg,#7b1fa2,#ce93d8);
+
+padding:40px 60px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 0 40px rgba(123,31,162,0.9);
+}
+
+.turn-box h1{
+
+font-size:46px;
+margin-top:10px;
+}
+
+.screen{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:16px;
+}
+/* BOTÓN VOLVER */
+
+.back-btn{
+
+position:fixed;
+
+top:20px;
+left:20px;
+
+padding:10px 18px;
+
+border-radius:14px;
+
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+
+border:1px solid rgba(255,255,255,0.2);
+
+color:white;
+text-decoration:none;
+
+font-weight:600;
+
+z-index:3000;
+
+transition:all .25s;
+}
+
+.back-btn:hover{
+
+background:linear-gradient(90deg,#7b1fa2,#ce93d8);
+
+box-shadow:0 0 18px rgba(123,31,162,0.8);
+
+transform:translateY(-2px);
+}

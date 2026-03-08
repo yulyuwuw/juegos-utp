@@ -65,7 +65,7 @@ const FACULTADES = {
     cards: [
       {
         titulo: 'Civil',
-        descripcion: 'Diseño estructural e infraestructura.'
+        descripcion: 'Jeopardy Game - Trivia de conocimiento de Ingeniería civil'
       },
       {
         titulo: 'juego online',
@@ -165,7 +165,7 @@ function navegarAFacultad(facultad) {
     sistemas: 'pages/sistemas.html',
     industrial: 'pages/industrial.html',
     mecanica: 'pages/mecanica.html',
-    civil: 'pages/civil.html',
+    civil: '../JuegoIngenieriaCivil/JeopardyGame/jeopardygame.html',
     electrica: 'pages/electrica.html'
   };
 

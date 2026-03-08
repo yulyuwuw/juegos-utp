@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Construcción Básica",
+    "questions": [
+      {
+        "question": "¿Qué material gris se usa para hacer concreto?",
+        "answer": "Cemento",
+        "value": 100
+      },
+      {
+        "question": "¿Cómo se llama la mezcla de cemento, arena y agua?",
+        "answer": "Mortero",
+        "value": 200
+      },
+      {
+        "question": "¿Qué se añade al concreto para hacerlo resistente a tracción?",
+        "answer": "Acero (varillas)",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "name": "Estructuras",
+    "questions": [
+      {
+        "question": "¿Qué elemento sostiene un edificio desde abajo?",
+        "answer": "Cimientos",
+        "value": 100
+      },
+      {
+        "question": "¿Cómo se llama el elemento vertical que soporta peso?",
+        "answer": "Columna",
+        "value": 200
+      },
+      {
+        "question": "¿Qué fuerza actúa hacia abajo debido a la gravedad?",
+        "answer": "Peso",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "name": "Obras Públicas",
+    "questions": [
+      {
+        "question": "¿Qué construyen los ingenieros civiles para cruzar ríos?",
+        "answer": "Puentes",
+        "value": 100
+      },
+      {
+        "question": "¿Qué obra transporta agua de un lugar a otro?",
+        "answer": "Canal o tubería",
+        "value": 200
+      },
+      {
+        "question": "¿Cómo se llama la presa que almacena agua para consumo o energía?",
+        "answer": "Embalse o presa",
+        "value": 300
+      }
+    ]
+  }
+]

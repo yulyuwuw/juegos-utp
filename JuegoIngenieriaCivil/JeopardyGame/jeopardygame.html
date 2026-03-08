@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Jeopardy Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<!-- Volver -->
+
+<a href="../../../juegos-utp/public/index.html" class="back-btn">
+  ⬅ Volver
+</a>
+
+
+<!-- Fondo -->
+<div class="background"></div>
+
+<div class="game-app">
+
+<!-- Música -->
+<audio id="bgMusic" src="sounds/background.mp3" loop></audio>
+<audio id="clickSound" src="sounds/click.mp3"></audio>
+<audio id="correctSound" src="sounds/correct.mp3"></audio>
+<audio id="wrongSound" src="sounds/wrong.mp3"></audio>
+<audio id="winnerSound" src="sounds/winner.mp3"></audio>
+
+<!-- HOME -->
+<div id="home" class="screen glass">
+
+<h1 class="title">JEOPARDY CIVIL</h1>
+
+<button class="play-btn" onclick="goToSetup()">EMPEZAR</button>
+
+</div>
+
+<!-- REGISTRO JUGADORES -->
+
+<div id="setup" class="screen glass" style="display:none;">
+
+<h2>Registrar jugadores</h2>
+
+<label>Jugadores</label>
+<select id="numPlayers"></select>
+
+<div id="playerNames"></div>
+
+<button class="play-btn" onclick="setupPlayers()">Siguiente</button>
+
+</div>
+
+
+<!-- OPCIONES DE JUEGO -->
+
+<div id="modeSelection" class="screen glass" style="display:none;">
+
+<h2>Configurar Juego</h2>
+
+<label>Categorías</label>
+<input type="number" id="numCategories" value="3" min="1" max="6">
+
+<label>Preguntas por categoría</label>
+<input type="number" id="numQuestions" value="3" min="1" max="5">
+
+<br><br>
+
+<button class="play-btn" onclick="showImportSection()">Importar Partida</button>
+<div></div>
+
+<div id="importSection" style="display:none; margin-top:10px;">
+<input type="file" id="importFile" accept=".json">
+<button class="play-btn" onclick="importSet()">Cargar</button>
+</div>
+
+<br>
+
+<button class="play-btn" onclick="goToEditor()">Crear Nueva Partida</button>
+<button class="play-btn" onclick="openLibrary()">Seleccionar Partida Guardada</button>
+
+</div>
+
+
+<!-- EDITOR -->
+
+<div id="editor" class="screen glass" style="display:none;"></div>
+
+
+<!-- BIBLIOTECA -->
+
+<div id="libraryModal" class="modal" style="display:none;">
+
+<div class="modal-content glass">
+
+<h2>Biblioteca de Juegos</h2>
+
+<div id="savedSets"></div>
+
+<button class="close-btn" onclick="closeLibrary()">Cerrar</button>
+
+</div>
+
+</div>
+
+
+<!-- JUEGO -->
+
+<div id="game" class="screen" style="display:none;">
+
+<h2 id="turn"></h2>
+
+<div id="scoreboard"></div>
+
+<div id="board"></div>
+
+</div>
+
+
+<!-- PREGUNTA -->
+
+<div id="modal" class="modal" style="display:none;">
+
+<div class="modal-content glass">
+
+<h2 id="questionText"></h2>
+
+<button class="play-btn" onclick="showAnswer()">Mostrar Respuesta</button>
+
+<p id="answerText" style="display:none;"></p>
+
+<br><br>
+
+<button class="play-btn" onclick="answer(true)">Correcto</button>
+<button class="close-btn" onclick="answer(false)">Incorrecto</button>
+
+</div>
+
+</div>
+
+
+<!-- GANADOR -->
+
+<div id="winnerModal" class="modal" style="display:none;">
+
+<div class="modal-content glass">
+
+<h2 id="winnerName"></h2>
+
+<button class="play-btn" onclick="restartGame()">Nuevo Juego</button>
+
+</div>
+
+</div>
+
+
+<!-- TURNO -->
+
+<div id="turnModal" class="turn-modal" style="display:none;">
+
+<div class="turn-box">
+
+<h2>🎤 TURNO DE</h2>
+
+<h1 id="turnPlayerName"></h1>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</div>
+
+</body>
+</html>
+

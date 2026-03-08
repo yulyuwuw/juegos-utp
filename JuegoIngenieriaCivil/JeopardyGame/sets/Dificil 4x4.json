@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Materiales",
+    "questions": [
+      { "question": "¿Qué material es más resistente a tracción, acero o concreto?", "answer": "Acero", "value": 100 },
+      { "question": "¿Qué aditivo acelera el fraguado del concreto?", "answer": "Aditivo acelerante", "value": 200 },
+      { "question": "¿Qué significa f'c en diseño estructural?", "answer": "Resistencia a compresión del concreto", "value": 300 },
+      { "question": "¿Qué fenómeno produce fisuración por cambios térmicos?", "answer": "Retracción térmica", "value": 400 }
+    ]
+  },
+  {
+    "name": "Estructuras",
+    "questions": [
+      { "question": "¿Qué es un pórtico?", "answer": "Sistema estructural de vigas y columnas rígidamente conectadas", "value": 100 },
+      { "question": "¿Qué diagrama muestra fuerzas cortantes?", "answer": "Diagrama de cortante", "value": 200 },
+      { "question": "¿Qué método se usa para análisis matricial de estructuras?", "answer": "Método de rigidez", "value": 300 },
+      { "question": "¿Qué es el pandeo?", "answer": "Inestabilidad por compresión en elementos esbeltos", "value": 400 }
+    ]
+  },
+  {
+    "name": "Hidráulica",
+    "questions": [
+      { "question": "¿Qué instrumento mide caudal en campo?", "answer": "Molino o caudalímetro", "value": 100 },
+      { "question": "¿Qué principio explica la conservación de energía en fluidos?", "answer": "Ecuación de Bernoulli", "value": 200 },
+      { "question": "¿Qué régimen tiene número de Reynolds mayor a 4000?", "answer": "Régimen turbulento", "value": 300 },
+      { "question": "¿Qué ecuación se usa para flujo en tuberías a presión?", "answer": "Ecuación de Darcy-Weisbach", "value": 400 }
+    ]
+  },
+  {
+    "name": "Construcción",
+    "questions": [
+      { "question": "¿Qué documento detalla actividades y tiempos de obra?", "answer": "Cronograma", "value": 100 },
+      { "question": "¿Qué es un presupuesto base?", "answer": "Estimación inicial de costos", "value": 200 },
+      { "question": "¿Qué método optimiza tiempos en proyectos?", "answer": "Ruta crítica (CPM)", "value": 300 },
+      { "question": "¿Qué es un análisis de precios unitarios?", "answer": "Desglose de costos por actividad", "value": 400 }
+    ]
+  }
+]
+

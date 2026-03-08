@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Materiales",
+    "questions": [
+      {
+        "question": "¿Cuál es el principal componente del cemento Portland?",
+        "answer": "Clinker",
+        "value": 100
+      },
+      {
+        "question": "¿Qué propiedad mide la capacidad del concreto para resistir cargas?",
+        "answer": "Resistencia a la compresión",
+        "value": 200
+      },
+      {
+        "question": "¿Qué ensayo se usa para medir la trabajabilidad del concreto?",
+        "answer": "Ensayo de revenimiento (Slump)",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "name": "Estructuras",
+    "questions": [
+      {
+        "question": "¿Qué elemento estructural trabaja principalmente a compresión vertical?",
+        "answer": "Columna",
+        "value": 100
+      },
+      {
+        "question": "¿Qué elemento horizontal soporta cargas y las transmite a columnas?",
+        "answer": "Viga",
+        "value": 200
+      },
+      {
+        "question": "¿Qué teoría se usa comúnmente para analizar deformaciones en vigas?",
+        "answer": "Teoría de Euler-Bernoulli",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "name": "Geotecnia",
+    "questions": [
+      {
+        "question": "¿Qué estudio determina las propiedades del suelo antes de construir?",
+        "answer": "Estudio geotécnico",
+        "value": 100
+      },
+      {
+        "question": "¿Qué parámetro indica la resistencia al corte del suelo?",
+        "answer": "Cohesión y ángulo de fricción",
+        "value": 200
+      },
+      {
+        "question": "¿Qué teoría se usa para calcular capacidad portante en cimentaciones superficiales?",
+        "answer": "Teoría de Terzaghi",
+        "value": 300
+      }
+    ]
+  }
+]
